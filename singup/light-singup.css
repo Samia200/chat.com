@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+width: 100%;
+height: 100vh;
+
+background: #A7C6D9;
+}
+header img{
+position: absolute;
+width: 125px;
+height: 44px;
+left: 133px;
+top: 50px;
+}
+header i{
+position: absolute;
+left: 90%;
+top: 50px;
+color: white;
+}
+
+.container img{
+    position: absolute;
+width: 310px;
+height: 300px;
+left: 103px;
+top: 50%;
+
+}
+.contante{
+    position: absolute;
+width: calc(100% - 440px);
+height: 79%;
+left: 380px;
+top: 143px;
+
+background: #608BA6;
+box-shadow: inset 2px 4px 4px rgba(0, 0, 0, 0.66);
+border-radius: 15px;
+}
+.form{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 35px;
+}
+.form h1{
+font-style: normal;
+font-weight: bold;
+font-size: 36px;
+line-height: 42px;
+
+color: #FFFFFF;
+}
+.form p{
+    margin-top: 11px;
+    margin-bottom: 27px;
+    font-family: 'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+font-size: 22px;
+line-height: 19px;
+
+color: #FFFFFF;
+}
+.input input{
+    border: none;
+    outline: none;
+width: 329px;
+height: 36px;
+color: white;
+font-weight: 700;
+background: #A7C6D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.37);
+border-radius: 19px;
+padding-left: 10px;
+margin: 6px;
+}
+::placeholder{
+    color: rgba(0, 0, 0, 0.541);
+}
+.input{
+    margin-top: 12px;
+}
+.input h4{
+    margin-left: 37%;
+    text-align: left;
+    color: white;
+}
+.rememberMe{
+    margin-left: 37%;
+    text-align: left;
+    margin-top: 12px ;
+}
+.rememberMe label{
+    color: white;
+    margin-left: 26px;
+    font-size: 16px;
+    font-family:'Orbitron', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+button{
+    border: none;
+    outline: none;
+width: 329px;
+height: 36px;
+color: white;
+font-size: 20px;
+font-weight: 700;
+background: #A7C6D9;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.37);
+border-radius: 19px;
+padding-left: 10px;
+margin-top: 23px;
+
+}
+.line-singin{
+    letter-spacing: -1px;
+    height: 50px;
+}
+.line-singin p{
+    font-size: 20px;
+    display: inline-block;
+    letter-spacing: 2px;
+}
+.line{
+    display: inline-block;
+    
+    width: 90px;
+    border-bottom: 1px solid #dadde181;
+}
+.singin-with{
+  letter-spacing: 10px;
+}
+.facebook {
+display: inline-flex;
+width: 30px;
+height: 25px;
+left: 928px;
+top: 837px;
+background: #A7C6D9;
+box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.562);
+}
+.email{
+display: inline-flex;
+width: 30px;
+height: 25px;
+left: 928px;
+top: 837px;
+background: #A7C6D9;
+box-shadow: inset 3px 4px 4px rgba(0, 0, 0, 0.562);
+}
+.singin-with a i{
+color: #000;
+margin: 6px 9px;
+}
+.creat{
+    margin-top: -7px;
+}
+.creat p{
+ font-size: 13px;
+}
+.creat p a{
+    text-decoration: none;
+    color: #A7C6D9;
+    font-weight: 900;
+}
