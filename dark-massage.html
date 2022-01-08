@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>chat</title>
+    <link rel="stylesheet" href="dark-message.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+</head>
+<body>
+
+    <section class="left">
+      <!-- image user -->
+         <div class="user-img">
+             <img src="photo.jpeg" id="photo"> 
+             <input type="file" id="file">
+             <label for="file" id="uploadBtn"><i class="fas fa-camera"></i> </label>
+         </div>
+       <!-- name user -->
+     <h1 class="user-name"> user name</h1>
+
+           <!-- contact -->
+          <div class="contact">
+                  <!-- chat header -->
+                <div class="chat-header">
+                     <i class="fas fa-comments fa-2x"></i>
+                     <h2>Chat</h2>
+                     <i class="fas fa-plus-circle"  id="plus"></i>
+                     <!-- searche div (disply : none) -->
+                     <div class="search">
+                       <input type="text">
+                      </div>
+                 </div>
+      <!-- friends earia -->
+    <div class="contact-area">
+                 <!-- friend 1 (disply : none) -->
+          <div class="user-contact">
+                  <!-- user 2 messge  -->
+                 <div class="user2img"></div>
+
+            <div class="user2name">
+                  <p>usre name</p>
+                  <h6>last message here</h6>
+            </div>
+          </div>
+                 <!-- friend 1 end here-->
+   </div>
+               <!-- contact buttom-->
+                 <div class="contact-buttom">
+                  <i class="fas fa-toggle-on" id="toggle2"></i>
+                  <i class="fas fa-toggle-off"id="toggle1"></i>
+                  <a href="../login/index.html"> <i class="fal fa-sign-out"></i></a>
+
+                  </div>
+          </div>
+
+     <!-- contact end here -->
+    </section>
+
+
+    <section class="right">
+ <!-- message area header -->
+      <div class="msg-header">
+              <!-- user 2 messge  -->
+              <div class="user2-img"></div>
+
+          <div class="active">
+              <h4>User 2 name</h4>
+              <h6>3 hours ago ...</h6>
+          </div>
+           <!-- calls icon  -->
+          <div class="header-icons">
+            <i class="fas fa-phone"></i>
+            <i class="fas fa-video"></i>
+          </div>
+      </div>
+ <!-- message area   -->
+      <div class="msg-area" >
+        <div id="conversation-area">
+            <div class="conversation current" id="convo-1" title="Dave">
+              <!-- recieved message  -->
+                <div class=" recieved">
+        <!-- user 2 messge  -->  <p></p>
+                 </div>
+              <!-- recieved message end --> 
+
+              <!-- sent message  -->
+            <div class=" sent">
+         <!-- user 1 messge  -->  <p></p>
+            </div>
+          <!-- sent message end  -->
+            </div>
+    </div>
+    </div>
+<!-- message texting area  -->
+    <div class="msg-bottom">
+        <!--  image & imoje icon  -->
+         <div class="bottom-icons">
+           <i class="fas fa-image"></i>
+           <i class="fas fa-smile" id="emoji-button"></i>
+         </div>
+           <!--  text area  -->
+        <div class="input-group">
+ <!--  message  input --> <input type="text" class="form-control" placeholder="write message..." id="text-content">
+            <div class="input-group-append">
+  <!--send icon--> <span class="input-group-text"><i class="fa fa-paper-plane"></i></span>
+            </div>
+        </div>
+    </div>
+
+    </section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@joeattardi/emoji-button@3.0.3/dist/index.min.js"></script>
+
+
+    <script src="jquery-3.6.0.min.js"></script>
+<script src="dark-message.js"></script>
+</body>
+</html>
