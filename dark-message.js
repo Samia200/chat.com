@@ -70,3 +70,20 @@ button.addEventListener('click', () => {
        $(".contact-buttom" ).css({"box-shadow":"0px 0px 2px 4px #15122662"});
     })
   })
+  var x = window.matchMedia("(max-width: 905px)");
+
+
+ if(x.matches){
+  $(".user-contact").click(function(){
+   $('.left').css({"display":"none"});
+   $('.right').css({"display":"block"});
+
+  });
+}
+if(x.matches){
+  $(".back").click(function(){
+   $('.left').css({"display":"block"});
+   $('.right').css({"display":"none"});
+
+  });
+}
