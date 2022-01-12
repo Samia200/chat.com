@@ -171,3 +171,75 @@ margin: 6px 9px;
     color: #ad96a2;
     font-weight: 900;
 }
+@media screen and (max-width : 880px) {
+
+    header img{
+        position: absolute;
+        width: 50px;
+        height: 24px;
+        left: 13px;
+        top: 10px;
+        }
+    .container img{
+     display: none;
+    
+    } 
+    .contante{
+        position: absolute;
+    width: 99%;
+    margin: 0 6px;
+    left: 0;
+
+    height: 83%;
+    border-radius: 15px 15px 0px 0px;
+    }
+}
+@media screen and (max-width : 480px){
+    .form{
+        margin-top: 12px;
+    }
+    .input input{
+    width: 90%;
+    height: 35px;
+    }  
+    button{
+        width: 90%;
+        margin-top: 20px;
+        height: 35px;
+    }
+    .rememberMe{
+        margin-left: 7%;
+        margin-top: 12px ;
+    }
+    .form h1{
+        font-size: 26px;
+        line-height: 25px;
+        
+        }
+        .form p{
+            margin-top: 9px;
+            margin-bottom: 18px;
+        font-size: 16px;
+        line-height: 16px;
+        
+        }
+        .contante{
+            top: 90px;
+        }
+      header i{
+      left: 76%;
+      top: 30px;
+}
+.line-singin{
+    height: 40px;
+}
+.line-singin p{
+font-size: 18px;
+}
+.creat p{
+    font-size: 10px;
+   }
+   .creat p a{
+       font-weight: 700;
+   }
+}
